@@ -6,3 +6,4 @@ A[4] = 100
 
 for i in range(0, 6):
     print(A[i])
+print(f'O total da soma foi: {B}')
