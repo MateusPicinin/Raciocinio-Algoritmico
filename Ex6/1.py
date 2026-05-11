@@ -1,6 +1,8 @@
-A = [1, 2, 3, 4]
-asd
+A = [1, 0, 5, -2, -5, 7]
 
+B = int(A[0]+A[1]+A[5])
 
-print('oi')
-print('teste2')
+A[4] = 100
+
+for i in range(0, 6):
+    print(A[i])
