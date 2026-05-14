@@ -1,10 +1,8 @@
+import random
+
 A = []
-for i in range(1, 6):
-    A.append(int(input('Digite um numero inteiro positivo: ')))
-print(A)
-print(list(reversed(sorted(A))))
-print(sorted(A))
-print(len(A))
-print(min(A))
-print(max(A))
-print(sum(A))
+
+for i in range(0, 5):
+    i = random.randint(1, 100)
+    A.append(i)
+print(f'Sua lista com 5 numeros aleatorios: {A}')
