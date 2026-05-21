@@ -1,0 +1,6 @@
+def inverter():
+    palavra = input('Digite uma palavra: ')
+    print(palavra[::-1])
+
+
+inverter()

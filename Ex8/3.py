@@ -1,7 +1,6 @@
 matriz = []
 maior = 0
 MatriculaFinal = 0
-
 for i in range(4):
     matricula = int(input('Digite sua matricula: '))
     MediaP = int(input('Digite sua media das provas: '))
@@ -12,7 +11,6 @@ for i in range(4):
     if maior < MediaF:
         maior = MediaF
         MatriculaFinal = matricula
-
 for i in range(4):
     print(matriz[i])
 print('\n')
